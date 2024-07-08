@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
       <nav className="shadow-custom-medium w-full">
         {/* For Mobile View */}
-        <div className="flex justify-between md:hidden p-5">
+        <div className="flex justify-between items-center md:hidden p-5">
           <div>
             <img src={MenuIcon} alt="menu-icon" />
           </div>
@@ -19,7 +19,7 @@ const NavBar = () => {
         </div>
 
         {/* For Tablet and Desktop View */}
-        <div className="hidden justify-between md:flex py-6 px-20">
+        <div className="hidden justify-between items-center md:flex py-6 px-20">
           <div>
             <h4 className="text-customGreen font-semibold text-2xl">Footerz</h4>
           </div>
