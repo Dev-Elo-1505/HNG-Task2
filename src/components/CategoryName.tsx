@@ -11,7 +11,7 @@ export const CategoryName = () => {
         <a href="#">Sneaker</a>
       </div>
       <div className="hidden md:flex justify-between font-medium text-customLink mb-4">
-      <h5>Categories</h5>
+      <h5 className="font-medium">Categories</h5>
         <div className="flex gap-5">
           <a href="#" className="text-customGreen">
             All
