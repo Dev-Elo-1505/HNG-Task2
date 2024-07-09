@@ -16,9 +16,9 @@ export const Showcase = () => {
           
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+              <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
@@ -30,9 +30,9 @@ export const Showcase = () => {
         <Link to="/product"><img className="w-full rounded-t-lg cursor-pointer" src={Shoe1} alt="Shoe 1" /></Link>
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+            <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
@@ -44,9 +44,9 @@ export const Showcase = () => {
         <Link to="/product"><img className="w-full rounded-t-lg cursor-pointer" src={Shoe2} alt="Shoe 2" /></Link>
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+            <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
@@ -58,9 +58,9 @@ export const Showcase = () => {
         <Link to="/product"><img className="w-full rounded-t-lg cursor-pointer" src={Shoe3} alt="Shoe 3" /></Link>
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+            <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
@@ -72,9 +72,9 @@ export const Showcase = () => {
         <Link to="/product"><img className="w-full rounded-t-lg cursor-pointer" src={Shoe4} alt="Shoe 4" /></Link>
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+            <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
@@ -86,9 +86,9 @@ export const Showcase = () => {
         <Link to="/product"><img className="w-full rounded-t-lg cursor-pointer" src={Shoe5} alt="Shoe 5" /></Link>
           <div className="flex justify-between items-center px-3 py-3 rounded-b-lg">
             <div>
-              <p>
+            <p className="font-medium text-sm md:text-base">
                 Nike AirForce 1 <br />
-                <span>₦300,000</span>
+                <span className="text-customGreen font-semibold text-base">₦300,000</span>
               </p>
             </div>
             <div>
