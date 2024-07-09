@@ -59,7 +59,7 @@ export const Product = () => {
                   <div>43 - 45</div>
                 </div>
               </div>
-              <div className="flex justify-between">
+              <div className="flex gap-2 md:justify-between">
                 <Link to="/cart">
                   <button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150 md:w-[200px] flex justify-around">
                     <svg
