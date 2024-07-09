@@ -76,7 +76,7 @@ export const Cart = () => {
           <p className="font-medium text-base">Sub-Total</p>
           <p className="text-customGreen font-bold text-xl">₦67,000</p>
         </div>
-        <Link to="/checkout"><button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Checkout</button></Link>
+        <Link to="/savedProducts"><button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Checkout</button></Link>
         
       </div>
       </section>
