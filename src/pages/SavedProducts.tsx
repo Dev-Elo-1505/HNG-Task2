@@ -5,7 +5,7 @@ export const SavedProducts = () => {
   return (
     <>
       <NavBar />
-      <section  className="px-5 py-6">
+      <section className="px-5 py-6">
         <div id="info">
           <div className="mb-4">
             <h3 className="text-base font-medium">Buyer’s Information</h3>
@@ -35,7 +35,9 @@ export const SavedProducts = () => {
         <div>
           <div className="mb-4">
             <h3 className="text-base font-medium">Available Shipping Method</h3>
-            <p className="text-customLink text-sm">Choose your preferred delivery company</p>
+            <p className="text-customLink text-sm">
+              Choose your preferred delivery company
+            </p>
           </div>
         </div>
         <div className="px-5 py-6">
@@ -57,23 +59,31 @@ export const SavedProducts = () => {
               required
             />
             <div className="flex gap-[10px]">
-            <input
-              type="number"
-              placeholder="Shipping Address"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
-              required
-            />
-            <input
-              type="number"
-              placeholder="Shipping Address"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
-              required
-            />
+              <input
+                type="number"
+                placeholder="Shipping Address"
+                className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+                required
+              />
+              <input
+                type="number"
+                placeholder="Shipping Address"
+                className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+                required
+              />
             </div>
-            
           </form>
+          <div id="summary">
+            <div className="flex justify-between mb-4"><p>Sub-Total</p><p className="text-customGreen">₦67,000</p></div>
+            <div className="flex justify-between mb-4"><p>Delivery Fee</p><p className="text-customGreen">₦3000</p></div>
+            <div className="flex justify-between mb-4"><p>Total</p><p className="text-customGreen">₦72,000</p></div>
+          </div>
         </div>
-        <Link to="/checkout"><button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Make Payment</button></Link>
+        <Link to="/checkout">
+          <button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">
+            Make Payment
+          </button>
+        </Link>
       </section>
     </>
   );

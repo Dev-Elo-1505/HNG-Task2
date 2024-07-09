@@ -10,7 +10,7 @@ export const Checkout = () => {
         <div className="rounded-2xl border py-10 text-center flex flex-col justify-center items-center gap-6 shadow-custom-medium">
           <img src={VerifyIcon} alt="Verify Icon" />
           <p className="font-medium text-base">Payment Successful</p>
-          <p className="font-normal text-sm">You paid ₦67,000 to Footerz Shoe Store</p>
+          <p className="font-normal text-sm">You paid ₦72,000 to Footerz Shoe Store</p>
         </div>
         <div className="flex items-end h-96"><Link to="/" className="w-full"><button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Back To Shop</button></Link></div>
       </section>
