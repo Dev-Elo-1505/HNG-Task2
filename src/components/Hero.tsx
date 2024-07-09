@@ -1,9 +1,9 @@
-import BackgroundImage from "../assets/img/bg-hero.png"
+import BackgroundImage from "../assets/img/bg-hero.webp"
 
 export const Hero = () => {
   return (
     <>
-      <div className="bg-cover h-full" style={{ backgroundImage: `url(${BackgroundImage})` }}>Level up your steeze with Footwear by Footerz</div>
+      <section className="bg-cover bg-center bg-no-repeat text-center w-full" style={{ backgroundImage: `url(${BackgroundImage})` }}>Level up your steeze with Footwear by Footerz</section>
     </>
   );
 };

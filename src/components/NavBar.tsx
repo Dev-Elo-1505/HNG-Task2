@@ -1,7 +1,8 @@
 // import { Link } from "react-router-dom"
 import MenuIcon from "../assets/icons/menu.svg";
 import ShoppingBagIcon from "../assets/icons/shopping-bag.svg";
-import FavoriteIcon from "../assets/icons/favorite.svg"
+import FavoriteIcon from "../assets/icons/favorite.svg";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -12,20 +13,32 @@ const NavBar = () => {
           <div>
             <img src={MenuIcon} alt="menu-icon" />
           </div>
-          <h3 className="text-customGreen font-semibold text-2xl">Footerz</h3>
+          <h3 className="text-customGreen font-semibold text-2xl cursor-pointer"><Link to="/">Footerz</Link></h3>
           <div>
-            <img src={ShoppingBagIcon} alt="shopping bag icon" />
+            <Link to={"/cart"}>
+              <img
+                className="cursor-pointer icon-hover"
+                src={ShoppingBagIcon}
+                alt="shopping bag icon"
+              />
+            </Link>
           </div>
         </div>
 
         {/* For Tablet and Desktop View */}
         <div className="hidden justify-between items-center md:flex py-6 px-20">
           <div>
-            <h4 className="text-customGreen font-semibold text-2xl">Footerz</h4>
+            <h4 className="text-customGreen font-semibold text-2xl cursor-pointer"><Link to="/">Footerz</Link></h4>
           </div>
           <div className="flex gap-8">
             <img src={FavoriteIcon} alt="favourite icon" />
-            <img src={ShoppingBagIcon} alt="shopping bag icon" />
+            <Link to={"/cart"}>
+              <img
+                className="cursor-pointer icon-hover"
+                src={ShoppingBagIcon}
+                alt="shopping bag icon"
+              />
+            </Link>
           </div>
         </div>
       </nav>

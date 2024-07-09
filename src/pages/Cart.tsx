@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar";
 import NivaShoe from "../assets/img/niva-leather-shoe.svg";
 import VictoriShoe from "../assets/img/victori-one-slide.svg";
 import RedLuminousShoe from "../assets/img/red-luminous-shoe.svg";
+import { Link } from "react-router-dom";
 
 export const Cart = () => {
   return (
@@ -75,7 +76,8 @@ export const Cart = () => {
           <p className="font-medium text-base">Sub-Total</p>
           <p className="text-customGreen font-bold text-xl">₦67,000</p>
         </div>
-        <button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Checkout</button>
+        <Link to="/checkout"><button className="w-full py-5 px-6 bg-[#151515] rounded-lg text-[#fefefe] font-medium hover:opacity-90 active:scale-95 transition ease-in-out delay-150">Checkout</button></Link>
+        
       </div>
       </section>
       

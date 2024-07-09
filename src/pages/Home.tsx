@@ -1,11 +1,15 @@
 import { Display } from "../components/Display";
+import { Hero } from "../components/Hero";
 import NavBar from "../components/NavBar";
 
 const Home = () => {
   return (
     <>
-      <NavBar />
-      <Display />
+      <section className="max-w-full">
+        <NavBar />
+        <Hero />
+        <Display />
+      </section>
     </>
   );
 };

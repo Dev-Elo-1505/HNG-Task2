@@ -8,7 +8,7 @@ export const Display = () => {
         <CategoryName />
         <div className="mb-3">For You</div>
         <Showcase />
-        <div className="mb-3 mt">Top Rated</div>
+        <div className="mb-3">Top Rated</div>
         <Showcase />
         <div className="mb-3">Women</div>
         <Showcase />

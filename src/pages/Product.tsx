@@ -23,34 +23,23 @@ export const Product = () => {
                   <img src={Star} alt="Top rated" />
                 </div>
               </div>
-              <div>
-                <h3>Product description</h3>
-                <p>
-                  Niva isn't just a shoe brand, it's a legacy. Since 1982, these
-                  kicks have been a staple on the court,the streets, and ever...
-                </p>
-                <p className="text-right">See More</p>
-              </div>
               <div className="flex justify-between">
                 <div>
                   <h3>Color</h3>
                   <div className="flex gap-[0.625rem]">
-                    <div
-                      className="rounded-full w-6 h-6 bg-[#000000]"
-                    ></div>
-                    <div className="border border-black rounded-full w-6 h-6 bg-[#FEFEFE]"></div>
-                    <div className="rounded-full w-6 h-6 bg-[#160751]"></div>
+                    <div className="rounded-full w-6 h-6 bg-[#000000]"></div>
                   </div>
                 </div>
                 <div>
-                <h3>Quantity</h3>
+                  <h3>Quantity</h3>
                   <div className="flex gap-[0.625rem]">
-                    <div
-                      className="rounded-full w-6 h-6 bg-[#000000]"
-                    >-</div>
-                    <div className="border border-black rounded-full w-6 h-6 bg-[#FEFEFE]"></div>
+                    <div className="rounded-full w-6 h-6 bg-[#000000]">-</div>
+                    <div>1</div>
                     <div className="rounded-full w-6 h-6 bg-[#160751]">+</div>
                   </div>
+                </div>
+                <div>
+                  <p>Available sizes</p>
                 </div>
               </div>
             </div>
