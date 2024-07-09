@@ -7,9 +7,9 @@ export const Cart = () => {
   return (
     <>
       <NavBar />
-      <section className="px-5 py-6 flex flex-col md:px-[7.5rem] md:py-20">
-        <div className="flex-grow min-h-screen">
-          <div className="flex justify-between items-center text-xl mb-[10px]">
+      <section className="px-5 py-6 flex flex-col md:px-[7.5rem] md:py-20 min-h-screen">
+        <div className="flex-grow">
+          <div className="flex justify-between items-center text-xl mb-[10px] md:mb-4">
             <p className="font-medium md:text-xl">My Cart</p>
             <p className="text-customGreen">Edit</p>
           </div>
