@@ -41,11 +41,40 @@ export const SavedProducts = () => {
           </div>
           <form>
             <div className="flex justify-between mb-10">
-              <div className="flex gap-4"><input type="radio" /><p className="text-base font-medium text-black">GIG Logistics <br /><span className="text-sm font-normal text-customLink">2 days after order</span></p></div>
+              <div className="flex gap-4">
+                <input
+                  type="radio"
+                  className="accent-customGreen"
+                  id="option1"
+                  name="options"
+                  value="option1"
+                  checked
+                />
+                <p className="text-base font-medium text-black">
+                  GIG Logistics <br />
+                  <span className="text-sm font-normal text-customLink">
+                    2 days after order
+                  </span>
+                </p>
+              </div>
               <p className="text-customGreen font-semibold">₦3000</p>
             </div>
             <div className="flex justify-between mb-10">
-              <div className="flex gap-4"><input type="radio" /><p className="text-base font-medium text-black">Swift Logistics <br /><span className="text-sm font-normal text-customLink">1 day after order</span></p></div>
+              <div className="flex gap-4">
+                <input
+                  type="radio"
+                  className="accent-customGreen"
+                  id="option2"
+                  name="options"
+                  value="option2"
+                />
+                <p className="text-base font-medium text-black">
+                  Swift Logistics <br />
+                  <span className="text-sm font-normal text-customLink">
+                    1 day after order
+                  </span>
+                </p>
+              </div>
               <p className="text-customGreen font-semibold">₦5000</p>
             </div>
           </form>
