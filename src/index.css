@@ -12,6 +12,6 @@ body {
   color: hsla(0, 0%, 8%, 0.9);
 }
 
-.icon-hover:hover {
-  fill: #3A9A32;
+html {
+  scroll-behaviour: smooth;
 }

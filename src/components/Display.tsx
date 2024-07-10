@@ -6,15 +6,15 @@ export const Display = () => {
     <>
       <section className="py-6 px-5 md:py-10 md:px-[120px]">
         <CategoryName />
-        <div className="mb-3 font-semibold">For You</div>
+        <div className="mb-3 font-semibold" id="All">For You</div>
         <Showcase />
         <div className="mb-3 font-semibold">Top Rated</div>
         <Showcase />
-        <div className="mb-3 font-semibold">Women</div>
+        <div className="mb-3 font-semibold" id="Women">Women</div>
         <Showcase />
-        <div className="mb-3 font-semibold">Men</div>
+        <div className="mb-3 font-semibold" id="Men">Men</div>
         <Showcase />
-        <div className="mb-3 font-semibold">Kids</div>
+        <div className="mb-3 font-semibold" id="Kids">Kids</div>
         <Showcase />
       </section>
     </>

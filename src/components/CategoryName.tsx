@@ -5,10 +5,10 @@ export const CategoryName = () => {
         <a href="#" className="text-customGreen">
           All
         </a>
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Sneaker</a>
+        <a href="#Men" className="hover:text-customGreen">Men</a>
+        <a href="#Women" className="hover:text-customGreen">Women</a>
+        <a href="#Kids" className="hover:text-customGreen">Kids</a>
+        <a href="#" className="hover:text-customGreen">Sneaker</a>
       </div>
       <div className="hidden md:flex justify-between font-medium text-customLink mb-4">
       <h5 className="font-medium">Categories</h5>
@@ -16,10 +16,10 @@ export const CategoryName = () => {
           <a href="#" className="text-customGreen">
             All
           </a>
-          <a href="#">Men</a>
-          <a href="#">Women</a>
-          <a href="#">Kids</a>
-          <a href="#">Sneaker</a>
+          <a href="#Men" className="hover:text-customGreen">Men</a>
+          <a href="#Women" className="hover:text-customGreen">Women</a>
+          <a href="#Kids" className="hover:text-customGreen">Kids</a>
+          <a href="#" className="hover:text-customGreen">Sneaker</a>
         </div>
       </div>
     </>
