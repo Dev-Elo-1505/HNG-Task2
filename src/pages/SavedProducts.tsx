@@ -15,19 +15,19 @@ export const SavedProducts = () => {
             <input
               type="text"
               placeholder="Buyer's Name"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+              className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
               required
             />
             <input
               type="number"
               placeholder="Phone Number"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+              className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
               required
             />
             <input
               type="text"
               placeholder="Shipping Address"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+              className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
               required
             />
           </form>
@@ -87,27 +87,27 @@ export const SavedProducts = () => {
           <form>
             <input
               type="text"
-              placeholder="Buyer's Name"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+              placeholder="Card Holder"
+              className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
               required
             />
             <input
               type="number"
-              placeholder="Phone Number"
-              className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+              placeholder="Card Serial Number"
+              className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
               required
             />
             <div className="flex gap-[10px]">
               <input
                 type="number"
-                placeholder="Shipping Address"
-                className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+                placeholder="CVV"
+                className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
                 required
               />
               <input
-                type="number"
-                placeholder="Shipping Address"
-                className="border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
+                type="date"
+                placeholder="Card Expiry Date"
+                className="text-sm border border-customLink p-4 rounded-lg w-full block focus:outline-none mb-10"
                 required
               />
             </div>
